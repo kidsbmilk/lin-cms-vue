@@ -56,7 +56,7 @@ export default {
     async getInformation() {
       try {
         // 尝试获取当前用户信息
-        const user = await User.getAuths()
+        const user = await User.getInformation()
         this.setUserAndState(user)
         this.setUserAuths(user.auths)
       } catch (e) {
