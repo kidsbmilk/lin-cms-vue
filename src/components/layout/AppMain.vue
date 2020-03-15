@@ -5,6 +5,8 @@
       进入/离开 & 列表过渡：https://cn.vuejs.org/v2/guide/transitions.html
       Vue过渡mode属性踩坑：https://www.cnblogs.com/lhyxq/p/9643619.html
       vue之router-view组件的使用：https://blog.csdn.net/luoyu6/article/details/80098145
+      各种内部页面间的跳转都是替换appMain里的内容，也是因为router-view的原因。
+      在这个项目中，只有两外使用router-view了：App.vue以及这个AppMain.vue。
       -->
       <transition name="fade-transform" mode="out-in"> <router-view></router-view> </transition>
     </div>
