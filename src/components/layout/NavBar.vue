@@ -11,7 +11,7 @@
     </div>
   </div>
 </template>
-
+<!--导航栏：包括5种功能，面包屑导航、用户信息、通知、全屏、清空历史-->
 <script>
 import Notify from '@/components/notify/notify'
 import Breadcrumb from './Breadcrumb'

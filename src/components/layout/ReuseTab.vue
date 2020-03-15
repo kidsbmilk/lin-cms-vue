@@ -17,7 +17,11 @@
     </swiper>
   </div>
 </template>
-
+<!--
+历史记录
+管理员登录后，查看的不同路由页面，将以历史记录的形式留存在该组件。
+历史记录超过屏幕宽度可以左右滑动。
+-->
 <script>
 import { mapGetters } from 'vuex'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'

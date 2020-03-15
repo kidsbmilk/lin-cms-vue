@@ -92,7 +92,7 @@
     </div>
   </div>
 </template>
-
+<!--左侧菜单，跟MenuTab相对-->
 <script>
 import { mapGetters } from 'vuex'
 import Utils from '@/lin/utils/util'

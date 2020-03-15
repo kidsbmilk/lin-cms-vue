@@ -3,7 +3,7 @@
     <i class="iconfont icon-xsaaa" :style="{ fontSize: fontSize + 'px' }" @click="backTop"></i>
   </div>
 </template>
-
+<!--返回顶部-->
 <script>
 export default {
   name: 'BackTop',
